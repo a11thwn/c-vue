@@ -29,11 +29,5 @@ export default {
 </script>
 
 <style>
-.menu {
-  display: flex;
-  gap: 16px;
-}
-.active {
-  color: #64359c;
-}
+@import './styles/app.css';
 </style>
