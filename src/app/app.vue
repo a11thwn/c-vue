@@ -1,5 +1,7 @@
 <template>
   <h3>{{ name }}</h3>
+  <input type="text" v-model="content" />
+  <span>→ Content: {{ content }}</span>
 </template>
 
 <script>
@@ -7,8 +9,7 @@ export default {
   data() {
     return {
       name: '宁皓网',
-      menuItems: ['首页', '热门', '发布'],
-      currentItem: 0,
+      content: '天地玄黄',
     };
   },
 };
